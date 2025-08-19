@@ -1,40 +1,49 @@
-Kubernetes: k8s
+# Kubernetes Summary (K8s)
 
-container orchestration tool / framework
+## Definition
+
+Container orchestration tool / framework
+
 - high availability
 - scalability or high performance
 - disaster recovery
+
 ## Kubernetes components:
 
-Node: Server
-Pod: 
+### Node: Server
+
+### Pod:
+
 - smallest unit of K8s
-- abstraction over containers 
-- 1 app by Pod
+- abstraction over containers
+- one app by Pod
 - each Pod gets its own ip address
 
-Service:
+### Service:
+
 - permanent IP address
 - lifecycle of Pod and Service are not connected
 
-Ingress: convert the url to secure protocol and domain name
+### Ingress: convert the url to secure protocol and domain name
 
-ConfigMap:
+### ConfigMap:
+
 - external configurations ( db config)
 
-Secret:
+### Secret:
+
 - store secret dat
 - base64 encoded
 
-Volumes:
+### Volumes:
+
 - storage on local machine
 - or remote outside of the K8s cluster
 
 ## Deployment StatefullSet
 
-
 ## Minikube:
+
 is a local Kubernetes
-- minikube start 
 
-
+- minikube start

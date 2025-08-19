@@ -13,8 +13,18 @@ pipeline as a code
 - "stages" : where the work happens
 - "stage" and "steps"
 
-create a jenkins docker image
-docker run -p 8080:8080 -p 50000:50000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+1. create a jenkins docker image
+   docker run -p 8080:8080 -p 50000:50000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+
+2. get the generated admin password
+
+```sh
+docker container logs <container_id>
+```
+
+3. add credentials
+
+4. add a job configuration
 
 ## Jenkins project types
 

@@ -8,9 +8,14 @@ Container orchestration tool / framework
 - scalability or high performance
 - disaster recovery
 
-## Kubernetes components:
+* Kubectl : CLI to configure Kubernetes and manage apps
+* Kubelet: Kubernetes agent running on nodes
+* Node: Single Server in the kubernetes cluster
+* Control Plane: set of containers that mange the cluster
+- includes: API Server, scheduler, controller manager, etcd
+- sometimes called master
 
-### Node: Server
+## Kubernetes components:
 
 ### Pod:
 
